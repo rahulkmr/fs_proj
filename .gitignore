@@ -1,0 +1,6 @@
+packages/
+build/
+deploy/
+obj/
+bin/
+.fake/
