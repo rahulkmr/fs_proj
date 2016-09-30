@@ -4,3 +4,7 @@ deploy/
 obj/
 bin/
 .fake/
+GPATH
+GRTAGS
+GTAGS
+tags
