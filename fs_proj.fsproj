@@ -49,6 +49,7 @@
     <Compile Include="fs_proj.fs" />
     <None Include="App.config" />
     <None Include="chapter2.fsx" />
+    <None Include="chapter3.fsx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Choose>
