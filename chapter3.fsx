@@ -1,4 +1,4 @@
-#load "chapter2.fsx"
+#load "common.fsx"
 
 open System
 open System.Drawing
@@ -112,7 +112,7 @@ let timeFunc f =
     (res, finish - start)
 
 let testTimeFunc () =
-    timeFunc (fun () -> Chapter2.http "http://newscientist.com")
+    timeFunc (fun () -> Common.http "http://newscientist.com")
 
 
 let testObjectMethods () =

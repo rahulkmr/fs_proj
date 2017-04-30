@@ -1,6 +1,6 @@
-module fs_proj
+module Practice.Main
 
 [<EntryPoint>]
 let main argv =
-    printfn "%A" argv
+    Chapter2.startServer()
     0 // return an integer exit code

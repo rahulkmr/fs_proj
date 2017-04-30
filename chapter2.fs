@@ -1,5 +1,4 @@
-#r "packages/FSharp.Data/lib/net40/FSharp.Data.dll"
-#r "packages/Suave/lib/net40/Suave.dll"
+module Practice.Chapter2
 
 open System.IO
 open System.Net
@@ -8,6 +7,8 @@ open FSharp.Data
 
 open Suave
 open Suave.Web
+
+
 
 let splitAtSpaces (text: string) =
     text.Split ' ' |> Array.toList
@@ -36,10 +37,6 @@ let http (url: string) =
     let html = reader.ReadToEnd()
     resp.Close()
     html
-
-let fetchBBC () = http "http://news.bbc.co.uk"
-
-
 
 
 type Species = HtmlProvider<"http://en.wikipedia.org/wiki/The_world's_100_most_threatened_species">
