@@ -51,6 +51,7 @@
     <None Include="chapter5.fsx" />
     <None Include="chapter6.fsx" />
     <None Include="chapter7.fsx" />
+    <None Include="chapter8.fsx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Choose>
